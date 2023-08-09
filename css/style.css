@@ -250,7 +250,13 @@
   width: 2.5em;
   height: 2.5em;
 }
-
+#section-4 .splide__arrow {
+  transition: opacity .3s ease;
+}
+#section-4 .splide__arrow:disabled {
+  opacity: 0!important;
+  pointer-events: none;
+}
 #section-4 .splide__arrow svg {
   fill: #fff;
   width: 1em;
@@ -404,7 +410,13 @@
   border: 2px solid #000;
   border-radius: 15px;
 }
-
+#section-5 .splide__arrow {
+  transition: opacity .3s ease;
+}
+#section-5 .splide__arrow:disabled {
+  opacity: 0!important;
+  pointer-events: none;
+}
 #section-5 .splide__arrow svg {
   fill: #fff;
   width: 1em;

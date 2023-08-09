@@ -195,14 +195,14 @@
                         demand. With the psID Trail Track and Trace System, you can efficiently prevent counterfeiting
                         and track inventory at every stage – from the manufacturing stage to final delivery. Moreover,
                         use insights to improve sales and optimise costs on distribution.</p>
-                        <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
-                          <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
-                            href="/categories" data-font-style="popping-semibold">
-                            <span class="button__inner">
-                              <span class="button__label"> Know more</span>
-                            </span>
-                          </a>
-                        </div>
+                      <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
+                        <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
+                          href="/categories" data-font-style="popping-semibold">
+                          <span class="button__inner">
+                            <span class="button__label"> Know more</span>
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -222,14 +222,14 @@
                         patented psID system generates unique codes that can be easily scanned by consumers to verify
                         products. Not only does this help in anti-counterfeiting, cut significant losses but also helps
                         build trust and brand loyalty.</p>
-                        <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
-                          <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
-                            href="/categories" data-font-style="popping-semibold">
-                            <span class="button__inner">
-                              <span class="button__label"> Know more</span>
-                            </span>
-                          </a>
-                        </div>
+                      <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
+                        <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
+                          href="/categories" data-font-style="popping-semibold">
+                          <span class="button__inner">
+                            <span class="button__label"> Know more</span>
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -250,14 +250,14 @@
                         Our loyalty platform can be used to create multi-channel programs for your customers, retailers
                         and influencers. Use smart technology to effectively connect with them and boost your return on
                         investment and sales.</p>
-                        <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
-                          <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
-                            href="/categories" data-font-style="popping-semibold">
-                            <span class="button__inner">
-                              <span class="button__label"> Know more</span>
-                            </span>
-                          </a>
-                        </div>
+                      <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
+                        <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
+                          href="/categories" data-font-style="popping-semibold">
+                          <span class="button__inner">
+                            <span class="button__label"> Know more</span>
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -655,38 +655,51 @@
 
 
   <!---- section 8 Slider---->
+
   <script>
     var splide = new Splide('.home-testimonial', {
-      type: 'loop',
+      type: 'slide',
+      loop: true,
       autoplay: true,
-      rewind: true,
+      rewind: false,
       interval: 4000,
       height: 'auto',
       perPage: 1,
       gap: '0rem',
       pagination: true,
       arrows: true,
-
-
+      breakpoints: {
+        480: {
+          perPage: 1,
+          arrows: false,
+          loop: true,
+        },
+      },
     });
     splide.mount();
   </script>
 
   <script>
-    var splide = new Splide('.home-testimonial2', {
+    var splides = new Splide('.home-testimonial2', {
       type: 'loop',
+      loop: true,
       autoplay: true,
-      rewind: true,
+      rewind: false,
       interval: 4000,
       height: 'auto',
       perPage: 1,
       gap: '0rem',
       pagination: true,
       arrows: true,
-
-
+      breakpoints: {
+        480: {
+          perPage: 1,
+          arrows: false,
+          loop: true,
+        },
+      },
     });
-    splide.mount();
+    splides.mount();
   </script>
   <!---- section 8 Slider ---->
 
@@ -694,7 +707,7 @@
 
 
   <script src="js/navbar.js"></script>
-    
+
 
 </body>
 
