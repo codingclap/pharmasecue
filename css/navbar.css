@@ -230,7 +230,7 @@
 }
 
 .page-header .get_proposal_btn {
-    padding: 8px 40px;
+    padding: 7px 30px;
     font-weight: 600;
     font-family: inherit;
     font-size: 16px;
@@ -246,7 +246,15 @@
     border: 2px solid #F97F15;
     white-space: nowrap;
 }
+.page-header .get_proposal_btn:hover{
+    color: #fff;
+    background: #F97F15;
+}
 
+/* .page-header .get_proposal_btn:visited{
+    color: #fff;
+    background: #F97F15;
+} */
 
 
 
@@ -293,7 +301,7 @@
 #headermenu .headermenu-inner .headermenu-logo img {
     width: 100%;
     max-width: 221px;
-    padding: 20px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 .headermenu-main ul.headermenu-firstmenu {
@@ -606,7 +614,7 @@
 
     #headermenu .headermenu-inner .headermenu-logo img {
         max-width: 200px;
-        padding: 15px 10px 15px 0px;
+        padding: 10px 10px 15px 0px;
     }
 }
 
@@ -840,7 +848,7 @@
 
     #headermenu .headermenu-inner .headermenu-logo img {
         max-width: 170px;
-        padding: 18px 10px 18px 0px;
+        padding: 10px 10px 18px 0px;
     }
 
     .notification>img {
