@@ -354,7 +354,7 @@
 
 
 @media(min-width:1199px) {
-
+     
     #headermenu .mobilemenubar-button {
         display: none;
     }
@@ -632,7 +632,7 @@
         z-index: 99999;
         transform: translateY(-0.5em);
         box-shadow: 0px 0px 0px #ddd;
-        display: block;
+        display: none;
         border-radius: 5px;
         transition: visibility .2s ease, transform .2s ease;
     }
