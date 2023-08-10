@@ -1,17 +1,4 @@
 
-let dropmenu = document.querySelector('#subdrop');
-dropmenu.addEventListener('click', () => {
-  let dropbox = document.querySelector('.nested-submenu');
-
-  if (dropbox.classList.contains("drop-active")) {
-    dropbox.classList.remove("drop-active");
-    dropbox.style="display:none";
-  } else {
-    dropbox.classList.add("drop-active");
-    dropbox.style="display:block";
-  }
-});
-
 
 /********** Primary Dropdown With Hamberger **********/
 let toggleMenu = document.querySelector('.menu-toggle');
@@ -36,6 +23,25 @@ toggleMenu.addEventListener('click', (e) => {
 /********** Primary Dropdown With Hamberger **********/
 
 
+let dropdownbox = document.querySelector('#headermenu');
+new ResizeObserver((objects) => {
+
+  for (object of objects) {
+    if (object.contentRect.width < 1199) {
+
+
+let dropmenu = document.querySelector('#subdrop');
+dropmenu.addEventListener('click', () => {
+  let dropbox = document.querySelector('.nested-submenu');
+
+  if (dropbox.classList.contains("drop-active")) {
+    dropbox.classList.remove("drop-active");
+    dropbox.style="display:none";
+  } else {
+    dropbox.classList.add("drop-active");
+    dropbox.style="display:block";
+  }
+});
 
 
 // alert(object.contentRect.width);
@@ -67,5 +73,8 @@ primaryMenu.forEach((element, index) => {
 });
       /****************** Mobile Click Dropdown active ************/
 
+   }
+  }
 
+}).observe(dropdownbox);
 /****************** Sub Dropdown  ************/
