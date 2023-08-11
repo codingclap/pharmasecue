@@ -343,7 +343,9 @@
     cursor: pointer !important;
     padding-right: 25px;
 }
-
+.headermenu-main #menu2{
+    padding-right: 10px;
+}
 
 
 .headermenu-main ul.headermenu-firstmenu li.primary-menu.arrow>a:after {
@@ -521,7 +523,7 @@
     border-right: 1.8px solid #000;
     border-bottom: 1.8px solid #000;
     top: 40%;
-    right: 9px;
+    right: 25px;
     transition: all 0.3s;
     transform: rotate(314deg);
     
@@ -832,7 +834,7 @@
     .headermenu-main ul.submenu-items li.secondary-menu a.sub-arrow.arrow:after {
         right: 54px;
         top: 14px;
-        transform: rotate(270deg);
+        transform: rotate(44deg);
     }
 
     .page-header .headertopbar-menu li.phone,
