@@ -63,7 +63,9 @@ body {
 [data-bgcolor="white"] {
   background-color: #fff;
 }
-
+[data-color="dark-blue"]{
+  background-color: #006BAD;
+}
 [data-bgcolor="blue"] {
   background-color: #0082CF;
 }
