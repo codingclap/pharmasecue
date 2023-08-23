@@ -245,6 +245,7 @@
     text-decoration: none;
     border: 2px solid #F97F15;
     white-space: nowrap;
+    transition: 0.3s ease-in-out;
 }
 .page-header .get_proposal_btn:hover{
     color: #fff;

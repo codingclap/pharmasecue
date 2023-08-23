@@ -317,10 +317,13 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+.cta-pair__button a{
+  transition: all 0.3s ease-in-out;
+}
 .cta-pair__button a:hover{
-  color: #FF5F00;
-  background-color: #fff;
-  border-color: #FF5F00;
+  color: #fff;
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
 }
 .button--secondary {
   background-color: #fff;
