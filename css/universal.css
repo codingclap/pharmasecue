@@ -1,5 +1,4 @@
-body {
-  font-size: 100%;
+body { 
   color: #000000;
   box-sizing: border-box;
 }
@@ -357,6 +356,7 @@ a:hover {
   justify-content: center;
   padding: 8px 25px;
 }
+
 
 @media(max-width:500px) {
 

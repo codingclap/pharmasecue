@@ -600,7 +600,7 @@
 
 @media(max-width:1280px) {
   body {
-    font-size: 70%;
+    font-size: 80%;
   }
 
   #section-1 .banner-flex {
@@ -702,7 +702,7 @@
 @media(max-width:632px) {
 
   body {
-    font-size: 65%;
+    font-size: 77%;
   }
 
   #section-1 .banner-slider-pagination {
@@ -720,7 +720,7 @@
 
 @media(max-width:500px) {
   body {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   #section-6 .tabs-details img {
