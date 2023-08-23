@@ -343,10 +343,9 @@
 }
 
 #section-4 .iframe-wrapper {
-  background-image: url(https://i.ytimg.com/vi_webp/ZEDLeSgaAPE/maxresdefault.webp);
-
+  background-image: url(https://i.ytimg.com/vi_webp/ZEDLeSgaAPE/maxresdefault.webp); 
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 53%;
   /* 16:9 */
   padding-top: 25px;
   height: 0;

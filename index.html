@@ -382,24 +382,40 @@
   <!---------------------- Section - 4 ---------------------->
   <style>
     .why-pharma-box {
-      min-height:450px;
+      min-height: 450px;
       border-radius: 20px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
-     
-    }
-    .why-pharma-box > img{
-      position: relative; 
-      top:-70px;
-      width: 130px;
-       
+
     }
 
-    .why-pharma-box h5{
+    .why-pharma-box>img {
+      position: relative;
+      top: -70px;
+      width: 130px;
+
+    }
+
+    .why-pharma-box h5 {
       margin-top: -20px;
     }
+
+    #section-4 .video-after {
+      position: relative;
+      z-index: +999;
+    }
+
+    #section-4 .video-after:after {
+      content: "";
+      width: 100vw;
+      height: 400px;
+      background-color: #fff;
+      position: absolute;
+      z-index: -1;
+      bottom: -20px;
+    }
   </style>
-  <section id="section-4" class="overflow-hidden mt-4 py-5 py-md-5">
-    <div class="container-fluid py-5">
+  <section id="section-4" class="overflow-hidden mt-4 pt-5 pt-md-5">
+    <div class="container-fluid pt-5">
       <div class="row text-center pb-5">
         <div class="col-12 col-md-12 col-lg-12">
           <h3 class="text-center" data-color="white" data-heading="3em" data-font-style="popping-semibold">Why
@@ -409,16 +425,17 @@
       </div>
 
       <!------------ Boxes Area ------------>
-      <div class="container-fluid pb-5 pt-5">
+      <div class="container-fluid pb-5 pt-0">
         <div class="row text-center pt-5 justify-content-center gap-5">
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5 ">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-0" data-color="dark-blue">
+          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 pe-lg-0 pe-xl-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
 
-              <img src="images/trusted-provider.svg" alt=""> 
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white"
-                line-height="1.5em">Trusted provider and knowledge expert in pharmaceuticals</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">We have over
+              <img src="images/trusted-provider.svg" alt="">
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Trusted
+                provider and knowledge expert in pharmaceuticals</h5>
+              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
+                We have over
                 13
                 years of experience with pharmaceutical clients – some of the largest pharmaceutical companies rely on
                 us
@@ -428,12 +445,13 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-0" data-color="dark-blue">
+          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 ps-lg-0 ps-xl-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
               <img src="images/experts-in-track.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white"
-                line-height="1.5em">Experts in track-and-trace regulatory compliance</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">In an
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Experts
+                in track-and-trace regulatory compliance</h5>
+              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
+                In an
                 ever-evolving regulatory environment, it’s important for companies to stay future-fit. This is
                 especially
                 true for companies exporting across the globe.</p>
@@ -444,12 +462,13 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-0" data-color="dark-blue">
+          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 pe-lg-0 pe-xl-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
               <img src="images/proven-cutting.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white"
-                line-height="1.5em">Proven cutting-edge technology</h5>
-              <p  class="pt-2"  data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Till date
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Proven
+                cutting-edge technology</h5>
+              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
+                Till date
                 PharmaSecure has issued and applied 5 billion codes, more than 450 packaging line integrations with over
                 20 hardware providers.</p>
               <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Our patented
@@ -460,12 +479,13 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-0" data-color="dark-blue">
+          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 ps-lg-0 ps-xl-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
               <img src="images/tested-solutions.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white"
-                line-height="1.5em">Tested solutions that smoothly integrate into your operations</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">With
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Tested
+                solutions that smoothly integrate into your operations</h5>
+              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
+                With
                 PharmaSecure, you can safely expect minimal disruption to your existing manufacturing process and
                 negligible downtime of manufacturing lines. </p>
               <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Our platform
@@ -473,13 +493,13 @@
               </p>
             </div>
           </div>
- 
+
         </div>
       </div>
       <!------------ Boxes Area  ------------>
 
       <!------------ Video Area ------------>
-      <div class="row text-center pt-5 mt-5 justify-content-center">
+      <div class="row text-center pt-5 mt-5 justify-content-center video-after">
 
         <div class="col-12 col-md-12 col-lg-9 col-xl-8 py-2 px-4 px-md-4 ">
           <div class="iframe-wrapper">
