@@ -4,7 +4,6 @@
 <path d="M314.369 18H23.6311C20.5211 18 18 22.6461 18 28.3773V290.623C18 296.354 20.5211 301 23.6311 301H314.369C317.479 301 320 296.354 320 290.623V28.3773C320 22.6461 317.479 18 314.369 18Z" stroke="#FF5F00" stroke-width="0.98" stroke-miterlimit="10"/>
 </g>
 <rect width="224" height="224" transform="matrix(-1 0 0 1 281 48)" fill="url(#pattern0)"/>
-<rect width="224" height="224" transform="matrix(-1 0 0 1 281 48)" stroke="#FF5F00"/>
 <defs>
 <filter id="filter0_d_306_946" x="0.830009" y="0.830009" width="342.22" height="323.22" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
