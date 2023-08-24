@@ -113,6 +113,27 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    #van-animation {
+      width: 100%;
+      position: relative;
+    }
+
+    #van-animation .image-with-bg {
+      position: relative;
+    }
+
+    #van-animation .van-img {
+      position: absolute; 
+      bottom: 10%;
+      left: 25%;
+      width: 10%;
+      animation: move-forward 0.30s ease-in-out;
+    }
+
+    @keyframes{
+      
+    }
   </style>
   <section id="section-1" class="overflow-hidden">
     <!-- <video autoplay muted loop>
@@ -128,21 +149,29 @@
   <!---------------------- Section - 1 ---------------------->
 
   <!---------------------- Section - 2 ---------------------->
-  <section id="section-2" class="overflow-hidden py-4 py-md-5" data-bgcolor="blue">
+  <section id="section-2" class="overflow-hidden pt-4 pt-md-5" data-bgcolor="blue">
     <div class="container-fluid">
       <div class="container">
         <div class="row text-center">
           <div class="col-12 col-md-12 col-lg-12">
-            <h3 class="text-center" data-color="white" data-heading="3.5em" data-font-style="popping-semibold">How it started
-            </h3>
+            <h3 class="text-center" data-color="white" data-heading="3.5em" data-font-style="popping-semibold">How it
+              started</h3>
+
             <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="white" data-para="20px"
-              line-height="1.6em">As the name might suggest, PharmaSecure, was founded to enable safety and authenticity in pharmaceuticals. Launched in 2007 in New Hampshire, USA, it focused on software solutions for tackling drug counterfeiting. Today, we are a global leader in pharmaceutical supply chain traceability and serialisation.
+              line-height="1.6em">As the name might suggest, PharmaSecure, was founded to enable safety and authenticity
+              in pharmaceuticals. Launched in 2007 in New Hampshire, USA, it focused on software solutions for tackling
+              drug counterfeiting. Today, we are a global leader in pharmaceutical supply chain traceability and
+              serialisation.
             </p>
 
           </div>
         </div>
-       
       </div>
+    </div>
+
+    <div id="van-animation">
+      <img src="images/van-with-background.svg" alt="van-with-background" class="image-with-bg w-100">
+      <img src="images/van.svg" alt="van" class="van-img">
     </div>
   </section>
   <!---------------------- Section - 2 ---------------------->
