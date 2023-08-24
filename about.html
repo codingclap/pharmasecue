@@ -124,15 +124,34 @@
     }
 
     #van-animation .van-img {
-      position: absolute; 
+      position: absolute;
       bottom: 10%;
       left: 25%;
       width: 10%;
-      animation: move-forward 0.30s ease-in-out;
+      animation-name: move-forward;
+      animation-duration: 7s;
+      animation-delay: 0.8s;
+      /* Animation will be repeated twice */
+      animation-iteration-count: initial;
+      animation-fill-mode: forwards;
     }
 
-    @keyframes move-forward{
+    @keyframes move-forward {
+      100% {
+        left: 80%
+      }
 
+      50% {
+        opacity: 1;
+      }
+
+      70% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+      }
     }
   </style>
   <section id="section-1" class="overflow-hidden">
@@ -180,99 +199,90 @@
   <section id="spotlight" class="overflow-hidden py-5 py-md-5">
     <div class="container-fluid">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-md-12 col-lg-12">
-            <h3 class="text-center" data-color="blue" data-heading="3.5em" data-font-style="popping-semibold">Spotlight
-            </h3>
 
+        <div class="row text-start pt-5 pb-5 justify-content-evenly align-items-center">
+
+          <div class="col-12 col-md-12 col-lg-6">
+            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-color="blue"
+              data-font-style="popping-semibold" line-height="1.5em">Over 13 years of expertise in implementing
+              worldwide pharmaceutical regulations</h5>
+            <p class="text-center text-lg-start" data-font-style="popping-regular" data-color="black" data-para="18px"
+              line-height="1.6em">We’ve supported some of the largest pharmaceutical companies to meet the traceability
+              requirements of countries such as India, Turkey, the EU, Saudi Arabia and the United States. Products
+              coded by PharmaSecure are currently distributed in more than 50 countries across the globe.</p>
+
+            <p class="text-center text-lg-start" data-font-style="popping-regular" data-color="black" data-para="18px"
+              line-height="1.6em">In July 2012, PharmaSecure became the first company to partner with the INTERPOL
+              Global Register. </p>
+
+            <p class="text-center text-lg-start" data-font-style="popping-regular" data-color="black" data-para="18px"
+              line-height="1.6em">We were one of the first companies to be approved by the Nigerian FDA (NAFDAC) as a
+              provider of the scratch-and-text Mobile Authentication Service (MAS). This solution has dramatically
+              reduced the counterfeiting of antimalarial and antibiotic drugs in Nigeria.</p>
+
+            <span class="d-flex mt-4" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6 text-end">
+            <img src="images/doctor-pic.png" alt="" class="w-75">
           </div>
         </div>
-        <div class="row text-start pt-4 pt-lg-5 justify-content-evenly">
-          <div class="col-12 col-md-12 col-lg-4 text-center">
-            <img src="images/sportlight-code.svg" alt="" class="w-75">
+
+        <div class="row text-start pt-5 pt-lg-5 justify-content-between align-items-center">
+          <div class="col-12 col-md-12 col-lg-6 text-start">
+            <img src="images/scanner.png" alt="" class="w-75">
           </div>
           <div class="col-12 col-md-12 col-lg-6">
-            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-font-style="popping-semibold"
-              line-height="1.5em">Contrary to
-              popular belief, Lorem Ipsum is not simply random text.</h5>
-            <p class="text-center text-lg-start" data-font-style="popping-regular" data-color="black" data-para="20px"
-              line-height="1.6em">Richard
-              McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
-              Latin
-              words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source.</p>
-            <div class="cta-pair__button text-center text-lg-start w-100 pt-3 pe-0 pe-md-5">
-              <a data-category-search-cta="" class="button button--jumbo button--primary button--responsive"
-                href="/categories" data-font-style="popping-semibold">
-                <span class="button__inner">
-                  <span class="button__label"> Know more</span>
-                </span>
-              </a>
-            </div>
+            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-color="blue"
+              data-font-style="popping-semibold" line-height="1.5em">More than supply chain visibility and
+              anti-counterfeiting</h5>
+            <p class="text-center text-lg-start" data-font-style="popping-regular" data-color="black" data-para="18px"
+              line-height="1.6em">Apart from supply chain solutions, we also offer a multi-channel loyalty platform.
+              Blending superior technology and behavioural science, our loyalty software helps businesses better retain,
+              engage and communicate with their customers and channel members.</p>
+
+            <span class="d-flex mt-4" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
           </div>
+
         </div>
       </div>
     </div>
   </section>
   <!---------------------- Section - Spotlight ---------------------->
 
-  <!---------------------- Section - 3 ---------------------->
-  <section id="section-3" class="overflow-hidden py-4 py-md-5">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-md-12 col-lg-12">
-            <h3 class="text-center" data-color="blue" data-heading="3.5em" data-font-style="popping-semibold">Highlights
-            </h3>
-          </div>
-        </div>
-        <div class="row text-center pt-4 pt-lg-5 justify-content-center">
-          <div class="col-12 col-md-12 col-lg-4 col-xl-4 py-2 px-4 px-md-4">
-            <div class="highlight-tiles border rounded-bottom">
-              <img src="images/highlight-1.png" class="pt-4" alt="">
-              <h4 class="pt-3 m-0" data-font-style="popping-semibold" data-heading="3em" data-color="primary">550</h4>
-              <p class="pb-2" data-font-style="popping-regular" data-color="darkblue" data-para="18px"
-                line-height="1.6em">Production Line Installations</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-12 col-lg-4 col-xl-4 py-2 px-4 px-md-4">
-            <div class="highlight-tiles border rounded-bottom">
-              <img src="images/highlight-2.png" class="pt-4" alt="">
-              <h4 class="pt-3 m-0" data-font-style="popping-semibold" data-heading="3em" data-color="primary">6 BILLION
-              </h4>
-              <p class="pb-2" data-font-style="popping-regular" data-color="darkblue" data-para="18px"
-                line-height="1.6em">Products Secured</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-12 col-lg-4 col-xl-4 py-2 px-4 px-md-4">
-            <div class="highlight-tiles border rounded-bottom">
-              <img src="images/highlight-3.png" class="pt-4" alt="">
-              <h4 class="pt-3 m-0" data-font-style="popping-semibold" data-heading="3em" data-color="primary">15</h4>
-              <p class="pb-2" data-font-style="popping-regular" data-color="darkblue" data-para="18px"
-                line-height="1.6em">Years of Experience</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------------------- Section - 3 ---------------------->
 
 
   <!---------------------- Section - 4 ---------------------->
   <style>
-    .why-pharma-box {
-      min-height: 450px;
-      border-radius: 20px;
-      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+    #section-4 {
+      background-color: #fff;
 
     }
 
-    .why-pharma-box>img {
+    .why-pharma-box {
+      min-height: 480px;
+      border-radius: 0px 0px 10px 10px;
+      border: 2px solid #F1F1F1;
       position: relative;
-      top: -70px;
-      width: 130px;
+    }
 
+    .why-pharma-box .profile-pic {
+      position: relative;
+      top: -60px;
+      display: inline;
+    }
+
+    .why-pharma-box .profile-pic>img {
+      width: 100%;
+      max-width: 160px;
+    }
+    #section-4 .profile-linedin>img {
+      width: 100%;
+      max-width: 180px; 
+    }
+    #section-4 .profile-linedin {
+      position: absolute;
+      left: 39%;
+      bottom: -90px; 
     }
 
     .why-pharma-box h5 {
@@ -301,105 +311,88 @@
     #section-4 .iframe-wrapper iframe {
       border-radius: 15px;
     }
+    .profile-readmore{
+      position: absolute;
+      bottom: -30px;
+      left: 42.5%;
+      width: 60px;
+      cursor:pointer;
+    }
   </style>
   <section id="section-4" class="overflow-hidden mt-4 pt-5 pt-md-5">
     <div class="container-fluid pt-5">
       <div class="row text-center pb-5">
         <div class="col-12 col-md-12 col-lg-12">
-          <h3 class="text-center" data-color="white" data-heading="3.5em" data-font-style="popping-semibold">Why
-            PharmaSecure?
+          <h3 class="text-center" data-color="blue" data-heading="3.5em" data-font-style="popping-semibold">Board of
+            Directors
           </h3>
         </div>
       </div>
 
       <!------------ Boxes Area ------------>
       <div class="container-fluid pb-5 pt-0">
-        <div class="row text-center pt-2 pt-xl-5 justify-content-center gap-5">
+        <div class="row text-center pt-2 pt-xl-5 justify-content-center gap-3">
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 pe-lg-0 pe-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
+          <div class="col-12 col-md-12 col-lg-4 col-xl-3 pt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+              <div class="profile-pic">
+                <img src="images/george-jones.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
 
-              <img src="images/trusted-provider.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Trusted
-                provider and knowledge expert in pharmaceuticals</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
-                We have over
-                13
-                years of experience with pharmaceutical clients – some of the largest pharmaceutical companies rely on
-                us
-                for their regulatory serialisation and brand protection needs.</p>
-              <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Moreover, our
-                unrivalled after-sales service helps clients seamlessly carry on their operations and manufacturing.</p>
+
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">George
+                Jones
+              </h5>
+              <p style="text-overflow: ellipsis; overflow: hidden;  white-space: normal; height: 225px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
+                George Jones focuses on multiple hardware, software, and service sectors for Woodside Capital Partners. He has over 30 years of operating experience and advises semiconductor, embedded software, batteries, energy storage, and renewable energy companies on M&A and strategic financing transactions. Prior to Woodside Capital Partners, George served in general management, sales, and marketing roles at public and private companies including AppliedMicro (AMCC, now MACOM), RMI (now Broadcom), VLSI Technology, and more recently as a mentor/advisor at 500 Global and Silicon Catalyst. George has been based in Silicon Valley for most of his career and has executed M&A transactions as a deal lead for public, private, domestic, and international entities. George earned an MBA at Wharton and a Bachelor of Electrical Engineering degree at Georgia Tech. He is also a founding member of Sand Hill Angels, a leading angel investment group in Silicon Valley where he has served as a board member and leader over the years.
+             </p>
+              
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 ps-lg-0 ps-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
-              <img src="images/experts-in-track.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Experts
-                in track-and-trace regulatory compliance</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
-                In an
-                ever-evolving regulatory environment, it’s important for companies to stay future-fit. This is
-                especially
-                true for companies exporting across the globe.</p>
-              <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">So, to ensure
-                complete regulatory compliance for our clients, we support them for current as well as upcoming
-                mandates.
-              </p>
+          <div class="col-12 col-md-12 col-lg-4 col-xl-3 pt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+              <div class="profile-pic">
+                <img src="images/sarosh-kum.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Sarosh
+                Kumana
+              </h5>
+              <p style="text-overflow: ellipsis; overflow: hidden;  white-space: normal; height: 225px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
+                Sarosh Kumana is a real estate entrepreneur and angel investor with over 30 years of start-up and management experience. He is the president of PIP Inc. and of Pacific Capital Management. He has also been among the managerial heads of few other leading company’s across USA.</p>
+                <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 pe-lg-0 pe-xl-5 mt-0 mt-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
-              <img src="images/proven-cutting.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Proven
-                cutting-edge technology</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
-                Till date
-                PharmaSecure has issued and applied 5 billion codes, more than 450 packaging line integrations with over
-                20 hardware providers.</p>
-              <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Our patented
-                system ensures scalability, code uniqueness and best-in-class security.</p>
-              <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">We provide
-                database-less technology that eliminates the security risks of conventional solutions.
-              </p>
+          <div class="col-12 col-md-12 col-lg-4 col-xl-3 pt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+              <div class="profile-pic">
+                <img src="images/ruchi-mehta.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Ruchi
+                Mehta</h5>
+              <p style="text-overflow: ellipsis; overflow: hidden;  white-space: normal; height: 225px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
+                Ruchi has over 11 years of experience in corporate advisory, legal documentation, and transactional negotiations. She is experienced in varied aspects of fund management and private equity transactions, from structuring to negotiating, documentation and implementation.</p>
+                <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-7 col-xl-5 pt-5 ps-lg-0 ps-xl-5 mt-0 mt-xl-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3" data-color="dark-blue">
-              <img src="images/tested-solutions.svg" alt="">
-              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="white" line-height="1.5em">Tested
-                solutions that smoothly integrate into your operations</h5>
-              <p class="pt-2" data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">
-                With
-                PharmaSecure, you can safely expect minimal disruption to your existing manufacturing process and
-                negligible downtime of manufacturing lines. </p>
-              <p data-font-style="popping-regular" data-color="white" data-para="17px" line-height="1.6em">Our platform
-                effortlessly integrates with industry-standard printers and verification systems.
-              </p>
-            </div>
-          </div>
+
 
         </div>
       </div>
       <!------------ Boxes Area  ------------>
 
-      <!------------ Video Area ------------>
-      <div class="row text-center pt-5  mt-0 mt-md-5 justify-content-center video-after">
-
-        <div class="col-12 col-md-12 col-lg-9 col-xl-8 py-2 px-4 px-md-4 ">
-          <div class="iframe-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/ZEDLeSgaAPE?controls=0&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.pharmasecure.com&amp"
-              allowfullscreen></iframe>
-          </div>
-
-        </div>
-
-      </div>
-      <!------------ Video Area ------------>
 
     </div>
   </section>

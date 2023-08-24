@@ -169,14 +169,7 @@
 ### Section 4 - Start
 ##########################
 */
-#section-4 {
-  content: "";
-  background-image: url('../images/why-pharma-bg.png');
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 #section-4 .testimonial-record .testi-picture {
   width: 100%;
