@@ -127,10 +127,9 @@
       position: absolute;
       bottom: 10%;
       left: 25%;
-      width: 10%;
-      animation-name: move-forward;
+      width: 10%; 
       animation-duration: 7s;
-      animation-delay: 0.8s;
+      animation-delay: 0.3s;
       /* Animation will be repeated twice */
       animation-iteration-count: initial;
       animation-fill-mode: forwards;
@@ -194,7 +193,7 @@
     </div>
   </section>
   <!---------------------- Section - 2 ---------------------->
-
+ 
   <!---------------------- Section - Spotlight ---------------------->
   <section id="spotlight" class="overflow-hidden py-5 py-md-5">
     <div class="container-fluid">
@@ -330,14 +329,12 @@
       max-width: 60px;
       margin: 0 auto;
       right: 0;
-      border-radius:50px;
+      border-radius: 50px;
     }
 
     #more {
       display: none;
     }
-
-  
   </style>
   <section id="section-4" class="overflow-hidden mt-4 pt-5 pt-md-5">
     <div class="container-fluid pt-5">
@@ -498,7 +495,7 @@
       width: 60px;
       cursor: pointer;
       transition: all 0.3s ease-in-out;
-      border-radius:100px;
+      border-radius: 100px;
     }
 
     #more {
@@ -598,7 +595,16 @@
   </section>
   <!---------------------- Section - 5 ---------------------->
 
+  <script>
+    window.onscroll = function () {
+      if (window.pageYOffset >= 300) {
+        document.querySelector('.van-img').style = "animation-name: move-forward;";
+      } else {
+        document.querySelector('.van-img').style = "animation-name: move-backward;";
+      }
+    };
 
+  </script>
   <script>
     let mainBox = document.querySelectorAll('.why-pharma-box');
     mainBox.forEach((element, key) => {
