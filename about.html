@@ -220,15 +220,16 @@
               provider of the scratch-and-text Mobile Authentication Service (MAS). This solution has dramatically
               reduced the counterfeiting of antimalarial and antibiotic drugs in Nigeria.</p>
 
-            <span class="d-flex mt-4 mx-md-auto ms-lg-0" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
+            <span class="d-flex mt-4 mx-auto ms-lg-0" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
           </div>
-          <div class="col-12 col-md-12 col-lg-6 text-lg-end text-center pt-md-5">
+          <div class="col-12 col-md-12 col-lg-6 text-lg-end text-center pt-4">
             <img src="images/doctor-pic.png" alt="" class="w-75">
           </div>
         </div>
 
-        <div class="row text-start pt-5 pt-lg-5 justify-content-between flex-md-column-reverse flex-lg-row align-items-center">
-          <div class="col-12 col-md-12 col-lg-6 text-center text-lg-start pt-md-5">
+        <div
+          class="row text-start pt-5 pt-lg-5 justify-content-between flex-column-reverse flex-lg-row align-items-center">
+          <div class="col-12 col-md-12 col-lg-6 text-center text-lg-start pt-4">
             <img src="images/scanner.png" alt="" class="w-75">
           </div>
           <div class="col-12 col-md-12 col-lg-6">
@@ -240,7 +241,7 @@
               Blending superior technology and behavioural science, our loyalty software helps businesses better retain,
               engage and communicate with their customers and channel members.</p>
 
-            <span class="d-flex mt-4 mx-md-auto ms-lg-0" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
+            <span class="d-flex mt-4 mx-auto ms-lg-0" style="width:85px;height:7px;background-color:#ff7d1a;"></span>
           </div>
 
         </div>
@@ -259,10 +260,11 @@
     }
 
     .why-pharma-box {
-      min-height: 480px;
+      min-height: 450px;
       border-radius: 0px 0px 10px 10px;
       border: 2px solid #F1F1F1;
       position: relative;
+      transition: all 0.4s ease-in-out;
     }
 
     .why-pharma-box .profile-pic {
@@ -275,14 +277,16 @@
       width: 100%;
       max-width: 160px;
     }
+
     #section-4 .profile-linedin>img {
       width: 100%;
-      max-width: 180px; 
+      max-width: 180px;
     }
+
     #section-4 .profile-linedin {
       position: absolute;
       left: 39%;
-      bottom: -90px; 
+      bottom: -90px;
     }
 
     .why-pharma-box h5 {
@@ -311,18 +315,30 @@
     #section-4 .iframe-wrapper iframe {
       border-radius: 15px;
     }
-    .profile-readmore{
+
+    #section-4 .pharma-text {
+      transition: 1s ease-in-out;
+    }
+
+    #section-4 .profile-readmore {
       position: absolute;
       bottom: -30px;
-      left: 42.5%;
-      width: 60px;
-      cursor:pointer;
+      left: 0;
+      width: 100%;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      max-width: 60px;
+      margin: 0 auto; 
+      right: 0;
     }
-    #more {display: none;}
+
+    #more {
+      display: none;
+    }
   </style>
   <section id="section-4" class="overflow-hidden mt-4 pt-5 pt-md-5">
     <div class="container-fluid pt-5">
-      <div class="row text-center pb-5">
+      <div class="row text-center pb-3">
         <div class="col-12 col-md-12 col-lg-12">
           <h3 class="text-center" data-color="blue" data-heading="3.5em" data-font-style="popping-semibold">Board of
             Directors
@@ -332,10 +348,10 @@
 
       <!------------ Boxes Area ------------>
       <div class="container-fluid pb-5 pt-0">
-        <div class="row text-center pt-2 pt-xl-5 justify-content-center gap-3">
+        <div class="row text-center pt-2 pt-xl-3 justify-content-center gap-3">
 
-          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
               <div class="profile-pic">
                 <img src="images/george-jones.png" alt="">
                 <a href="" class="profile-linedin">
@@ -347,16 +363,27 @@
               <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">George
                 Jones
               </h5>
-              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 250px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
-                George Jones focuses on multiple hardware, software, and service sectors for Woodside Capital Partners. He has over 30 years of operating experience and advises semiconductor, embedded software, batteries, energy storage, and renewable energy companies on M&A and strategic financing transactions. Prior to Woodside Capital Partners, George served in general management, sales, and marketing roles at public and private companies including AppliedMicro (AMCC, now MACOM), RMI (now Broadcom), VLSI Technology, and more recently as a mentor/advisor at 500 Global and Silicon Catalyst. George has been based in Silicon Valley for most of his career and has executed M&A transactions as a deal lead for public, private, domestic, and international entities. George earned an MBA at Wharton and a Bachelor of Electrical Engineering degree at Georgia Tech. He is also a founding member of Sand Hill Angels, a leading angel investment group in Silicon Valley where he has served as a board member and leader over the years. 
-             </p>
-              
-              <img class="profile-readmore" src="images/down-arrow.png" onclick="myFunction()" id="myBtn" alt="arrow">
+              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                George Jones focuses on multiple hardware, software, and service sectors for Woodside Capital Partners.
+                He has over 30 years of operating experience and advises semiconductor, embedded software, batteries,
+                energy storage, and renewable energy companies on M&A and strategic financing transactions. Prior to
+                Woodside Capital Partners, George served in general management, sales, and marketing roles at public and
+                private companies including AppliedMicro (AMCC, now MACOM), RMI (now Broadcom), VLSI Technology, and
+                more recently as a mentor/advisor at 500 Global and Silicon Catalyst. George has been based in Silicon
+                Valley for most of his career and has executed M&A transactions as a deal lead for public, private,
+                domestic, and international entities. George earned an MBA at Wharton and a Bachelor of Electrical
+                Engineering degree at Georgia Tech. He is also a founding member of Sand Hill Angels, a leading angel
+                investment group in Silicon Valley where he has served as a board member and leader over the years.
+              </p>
+
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
               <div class="profile-pic">
                 <img src="images/sarosh-kum.png" alt="">
                 <a href="" class="profile-linedin">
@@ -366,14 +393,18 @@
               <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Sarosh
                 Kumana
               </h5>
-              <p style="text-overflow: ellipsis;white-space: normal;overflow: hidden;height: 250px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
-                Sarosh Kumana is a real estate entrepreneur and angel investor with over 30 years of start-up and management experience. He is the president of PIP Inc. and of Pacific Capital Management. He has also been among the managerial heads of few other leading company’s across USA.</p>
-                <img class="profile-readmore" src="images/down-arrow.png" onclick="myFunction()" id="myBtn" alt="arrow">
+              <p style="text-overflow: ellipsis;white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                Sarosh Kumana is a real estate entrepreneur and angel investor with over 30 years of start-up and
+                management experience. He is the president of PIP Inc. and of Pacific Capital Management. He has also
+                been among the managerial heads of few other leading company’s across USA.</p>
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
-          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5">
-            <div class="why-pharma-box py-3 px-3 px-md-5 py-md-3">
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
               <div class="profile-pic">
                 <img src="images/ruchi-mehta.png" alt="">
                 <a href="" class="profile-linedin">
@@ -382,9 +413,13 @@
               </div>
               <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Ruchi
                 Mehta</h5>
-              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 250px;" class="pt-2" data-font-style="popping-regular" data-color="black" data-para="17px" line-height="1.6em">
-                Ruchi has over 11 years of experience in corporate advisory, legal documentation, and transactional negotiations. She is experienced in varied aspects of fund management and private equity transactions, from structuring to negotiating, documentation and implementation.</span></p>
-                <img class="profile-readmore" src="images/down-arrow.png" onclick="myFunction()" id="myBtn" alt="arrow">
+              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                Ruchi has over 11 years of experience in corporate advisory, legal documentation, and transactional
+                negotiations. She is experienced in varied aspects of fund management and private equity transactions,
+                from structuring to negotiating, documentation and implementation.</span></p>
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
             </div>
           </div>
 
@@ -398,27 +433,195 @@
     </div>
   </section>
   <!---------------------- Section - 4 ---------------------->
-  <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-    
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-      }
+
+
+
+
+
+  <!---------------------- Section - 5 ---------------------->
+  <style>
+    #section-5 {
+      background-color: #fff;
+
     }
-    </script>
+
+
+    #section-5 .profile-linedin>img {
+      width: 100%;
+      max-width: 180px;
+    }
+
+    #section-5 .profile-linedin {
+      position: absolute;
+      left: 39%;
+      bottom: -90px;
+    }
+
+    .why-pharma-box h5 {
+      margin-top: -20px;
+    }
+
+    #section-5 .video-after {
+      position: relative;
+      z-index: +999;
+    }
+
+    #section-5 .video-after:after {
+      content: "";
+      width: 100vw;
+      height: 50%;
+      background-color: #fff;
+      position: absolute;
+      z-index: -1;
+      bottom: -20px;
+    }
+
+    #section-5 .iframe-wrapper {
+      border-radius: 15px;
+    }
+
+    #section-5 .iframe-wrapper iframe {
+      border-radius: 15px;
+    }
+
+    #section-5 .pharma-text {
+      transition: 1s ease-in-out;
+    }
+
+    #section-5 .profile-readmore {
+      position: absolute;
+      bottom: -30px;
+      left: 42.5%;
+      width: 60px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #more {
+      display: none;
+    }
+  </style>
+  <section id="section-5" class="overflow-hidden mt-4 pt-5 pt-md-5 pb-5 mb-5">
+    <div class="container-fluid pt-5">
+      <div class="row text-center pb-3">
+        <div class="col-12 col-md-12 col-lg-12">
+          <h3 class="text-center" data-color="blue" data-heading="3.5em" data-font-style="popping-semibold">Leadership
+          </h3>
+        </div>
+      </div>
+
+      <!------------ Boxes Area ------------>
+      <div class="container-fluid pb-5 pt-0">
+        <div class="row text-center pt-2 pt-xl-3 justify-content-center gap-3">
+
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
+              <div class="profile-pic">
+                <img src="images/nakul-pasricha.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
+
+
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Nakul
+                Pasricha
+              </h5>
+              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                Nakul Pasricha is the President & CEO of PharmaSecure. He has over 20 years’ experience in using
+                technology to solve pressing problems in financial services and healthcare. Earlier, Nakul worked at
+                Citibank and GE Capital in the US and India respectively, having served as CIO of GE’s consumer finance
+                business in India.
+              </p>
+
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
+              <div class="profile-pic">
+                <img src="images/dummy.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Lorem
+                Ipsum
+              </h5>
+              <p style="text-overflow: ellipsis;white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled when an unknown printer took a galley of type and scrambled when an unknown printer took a
+                galley of type and scrambled</p>
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-5 col-xl-3 pt-5 mt-5">
+            <div class="why-pharma-box py-3 px-3 px-md-4 py-md-3 active">
+              <div class="profile-pic">
+                <img src="images/dummy.png" alt="">
+                <a href="" class="profile-linedin">
+                  <img src="images/profile-linkedin.svg" alt="">
+                </a>
+              </div>
+              <h5 data-heading="25px" data-font-style="popping-semibold" data-color="black" line-height="1.5em">Lorem
+                Ipsum</h5>
+              <p style="text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 170px;"
+                class="pharma-text pt-2" data-font-style="popping-regular" data-color="black" data-para="17px"
+                line-height="1.6em">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled when an unknown printer took a galley of type and scrambled when an unknown printer took a
+                galley of type and scrambled</span></p>
+              <img class="profile-readmore" src="images/down-arrow.png" alt="arrow">
+            </div>
+          </div>
 
 
 
-   
+        </div>
+      </div>
+      <!------------ Boxes Area  ------------>
+
+
+    </div>
+  </section>
+  <!---------------------- Section - 5 ---------------------->
+
+
+  <script>
+    let mainBox = document.querySelectorAll('.why-pharma-box');
+    mainBox.forEach((element, key) => {
+      let btnText = element.querySelector('.pharma-text');
+      let clickBtn = element.querySelector('.profile-readmore');
+
+      clickBtn.addEventListener('click', () => {
+        console.log(element);
+        if (element.classList.contains("active")) {
+          btnText.style = "text-overflow: ellipsis; white-space: normal;overflow: hidden;height:inherit; transition:1s ease-in-out;";
+          element.classList.remove("active");
+          clickBtn.style = "transform:rotate(180deg)";
+        } else {
+          element.classList.add("active");
+          btnText.style = "text-overflow: ellipsis; white-space: normal;overflow: hidden;height: 170px; transition:1s ease-in-out;";
+          clickBtn.style = "transform:rotate(0deg)";
+        }
+      })
+
+    });
+
+
+  </script>
+
+
+
+
 
 
 
@@ -513,63 +716,6 @@
     </div>
   </section>
   <!---------------------- Footer Closed ---------------------->
-
-
-
-  <!------- Number with bullet Slider ------>
-
-
-  <!---- section 8 Slider---->
-
-  <script>
-    var splide = new Splide('.home-testimonial', {
-      type: 'loop',
-      loop: true,
-      autoplay: true,
-      rewind: false,
-      interval: 4000,
-      height: 'auto',
-      perPage: 1,
-      gap: '0rem',
-      pagination: true,
-      arrows: true,
-      breakpoints: {
-        480: {
-          perPage: 1,
-          arrows: false,
-          loop: true,
-        },
-      },
-    });
-    splide.mount();
-  </script>
-
-  <script>
-    var splides = new Splide('.home-testimonial2', {
-      type: 'loop',
-      loop: true,
-      autoplay: true,
-      rewind: false,
-      interval: 4000,
-      height: 'auto',
-      perPage: 1,
-      gap: '0rem',
-      pagination: true,
-      arrows: true,
-      breakpoints: {
-        480: {
-          perPage: 1,
-          arrows: false,
-          loop: true,
-        },
-      },
-    });
-    splides.mount();
-  </script>
-  <!---- section 8 Slider ---->
-
-
-
 
   <script src="js/navbar.js"></script>
 
