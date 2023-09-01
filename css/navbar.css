@@ -231,8 +231,8 @@
 
 .page-header .get_proposal_btn {
     padding: 7px 30px;
-    font-weight: 600;
-    font-family: popping-regular;
+    font-weight: 500;
+    font-family:popping-medium;
     font-size: 16px;
     line-height: 28px;
     text-align: center;
@@ -335,7 +335,7 @@
     position: relative;
     display: block;
     padding: 35px 10px;
-    font-family:popping-regular;
+    font-family:popping-medium;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -.0045em;
@@ -492,7 +492,7 @@
     padding: 8px 0px;
     display: block;
     font-size: 15px;
-    font-family:popping-regular;
+    font-family:popping-medium;
     font-weight: 500;
 }
 
