@@ -334,8 +334,8 @@
     position: relative;
     display: block;
     padding: 35px 10px;
-    font-family: inherit;
-    font-weight: 400;
+    font-family: popping;
+    font-weight: 500;
     font-size: 16px;
     letter-spacing: -.0045em;
     color: #000000;
@@ -491,6 +491,8 @@
     padding: 8px 0px;
     display: block;
     font-size: 15px;
+    font-family: popping;
+    font-weight: 500;
 }
 
 .headermenu-main .submenu-items .secondary-menu>a:hover {
