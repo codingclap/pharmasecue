@@ -26,7 +26,11 @@ body {
   src: url(../fonts/Poppins-Bold.ttf);
   font-weight: 700;
 }
-
+@font-face {
+  font-family: popping-light;
+  src: url(../fonts/Poppins-Light.ttf);
+  font-weight: 100;
+}
 @font-face {
   font-family: popping-regular;
   src: url(../fonts/Poppins-Regular.ttf);
@@ -49,7 +53,9 @@ body {
 [data-font-style="spring"] {
   font-family: spring;
 }
-
+[data-font-style="popping-light"] {
+  font-family: popping-light;
+}
 [data-font-style="popping-bold"] {
   font-family: popping-bold;
 }
