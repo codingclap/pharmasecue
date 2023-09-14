@@ -101,18 +101,22 @@
 
   <!---------------------- Section - 1 ---------------------->
   <style>
+    :root {
+      --min-height: 380px;
+      --bg-color: #242424;
+      --bg-img: url('images/home-banner.png');
+      --margin-bottom: 0em;
+    }
+
     #section-1 {
-      min-height: 0px;
-      padding-block: 0em;
-      background: #242424;
-      min-height: 380px;
-      position: relative;
-      margin-bottom: 0em;
-      position: relative;
-      background-image: url('images/about-banner.svg');
+      min-height: var(--min-height);
+      background: var(--bg-color);
+      margin-bottom: var(--margin-bottom);
+      background-image: var(--bg-img);
       background-repeat: no-repeat;
       background-size: cover;
     }
+
 
     #van-animation {
       width: 100%;
@@ -127,7 +131,7 @@
       position: absolute;
       bottom: 10%;
       left: 25%;
-      width: 10%; 
+      width: 10%;
       animation-duration: 7s;
       animation-delay: 0.3s;
       /* Animation will be repeated twice */
@@ -193,7 +197,7 @@
     </div>
   </section>
   <!---------------------- Section - 2 ---------------------->
- 
+
   <!---------------------- Section - Spotlight ---------------------->
   <section id="spotlight" class="overflow-hidden py-5 py-md-5">
     <div class="container-fluid">

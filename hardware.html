@@ -97,19 +97,22 @@
 
 
 
- 
+
 
   <!---------------------- Section 1 ---------------------->
   <style>
+    :root {
+      --min-height: 380px;
+      --bg-color: #242424;
+      --bg-img: url('images/serialization-banner.png');
+      --margin-bottom: 0em;
+    }
+
     #section-1 {
-      min-height: 0px;
-      padding-block: 0em;
-      background: #242424;
-      min-height: 380px;
-      position: relative;
-      margin-bottom: 0em;
-      position: relative;
-      background-image: url('images/serialization-banner.png');
+      min-height: var(--min-height);
+      background: var(--bg-color);
+      margin-bottom: var(--margin-bottom);
+      background-image: var(--bg-img);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -129,7 +132,7 @@
 
   <!---------------------- Section 1 ---------------------->
 
-   
+
 
   <!----------------------  Footer Section --------------------->
   <section id="footer" class="overflow-hidden pt-5 pt-md-5 pb-4 pb-md-5" data-bgcolor="footer">

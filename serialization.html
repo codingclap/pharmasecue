@@ -101,56 +101,20 @@
 
   <!---------------------- Section - 1 ---------------------->
   <style>
+    :root {
+      --min-height: 380px;
+      --bg-color: #242424;
+      --bg-img: url('images/serialization-banner.png');
+      --margin-bottom: 0em;
+    }
+
     #section-1 {
-      min-height: 0px;
-      padding-block: 0em;
-      background: #242424;
-      min-height: 380px;
-      position: relative;
-      margin-bottom: 0em;
-      position: relative;
-      background-image: url('images/serialization-banner.png');
+      min-height: var(--min-height);
+      background: var(--bg-color);
+      margin-bottom: var(--margin-bottom);
+      background-image: var(--bg-img);
       background-repeat: no-repeat;
       background-size: cover;
-    }
-
-    #van-animation {
-      width: 100%;
-      position: relative;
-    }
-
-    #van-animation .image-with-bg {
-      position: relative;
-    }
-
-    #van-animation .van-img {
-      position: absolute;
-      bottom: 10%;
-      left: 25%;
-      width: 10%;
-      animation-duration: 7s;
-      animation-delay: 0.3s;
-      /* Animation will be repeated twice */
-      animation-iteration-count: initial;
-      animation-fill-mode: forwards;
-    }
-
-    @keyframes move-forward {
-      100% {
-        left: 80%
-      }
-
-      50% {
-        opacity: 1;
-      }
-
-      70% {
-        opacity: 1;
-      }
-
-      100% {
-        opacity: 1;
-      }
     }
   </style>
   <section id="section-1" class="overflow-hidden">
@@ -325,14 +289,17 @@
       right: 0;
       border-radius: 50px;
     }
-    
+
     #section-4 .card-body {
       min-height: 450px;
     }
-    #section-4 .card-img, .card-img-top{
+
+    #section-4 .card-img,
+    .card-img-top {
       border-radius: 0px;
     }
-    #section-4 .card { 
+
+    #section-4 .card {
       border: 0px solid #F1F1F1;
     }
 
@@ -363,7 +330,8 @@
             <div class="card">
               <img class="card-img-top" src="images/psid-suite-of-software.png" alt="Card image cap">
               <div class="card-body py-5 px-5">
-                <span style="display:block;height:5px;background:#0082CA;width:100%;position:absolute;top:0;left:0;"></span>
+                <span
+                  style="display:block;height:5px;background:#0082CA;width:100%;position:absolute;top:0;left:0;"></span>
                 <h5 data-heading="25px" data-font-style="popping-semibold" data-color="blue" line-height="1.5em">psID®
                   Suite of Software
                 </h5>
@@ -383,14 +351,15 @@
                   </a>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
 
           <div class="col-12 col-md-12 col-lg-5 col-xl-5 pt-3 mt-3">
             <div class="card">
               <img class="card-img-top" src="images/hardware.png" alt="Card image cap">
               <div class="card-body py-5">
-                <span style="display:block;height:5px;background:#0082CA;width:100%;position:absolute;top:0;left:0;"></span>
+                <span
+                  style="display:block;height:5px;background:#0082CA;width:100%;position:absolute;top:0;left:0;"></span>
                 <h5 data-heading="25px" data-font-style="popping-semibold" data-color="blue" line-height="1.5em">
                   Hardware
                 </h5>

@@ -4,14 +4,9 @@
 ##########################
 */
 
-#section-1 {
-  min-height: 0px;
+#section-1 { 
   padding-block: 0em; 
-  position: relative;
-  margin-bottom: 3em;
-  position: relative; 
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;  
 }
 
 #section-1 video {
