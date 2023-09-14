@@ -745,10 +745,37 @@
             </div>
         </div>
     </section>
-
-
-
+ 
     <!----------------------Section-4--------------------------------->
+    <!---- section 8 Slider---->
+
+    <script>
+        var splide = new Splide('.home-testimonial2', {
+            type: 'loop',
+            loop: true,
+            autoplay: true,
+            rewind: false,
+            interval: 4000,
+            height: 'auto',
+            perPage: 1,
+            gap: '0rem',
+            pagination: true,
+            arrows: true,
+            breakpoints: {
+                480: {
+                    perPage: 1,
+                    arrows: false,
+                    loop: true,
+                },
+            },
+        });
+        splide.mount();
+    </script>
+
+     
+    <!---- section 8 Slider ---->
+
+
 
 
     <!----------------------  Footer Section --------------------->
