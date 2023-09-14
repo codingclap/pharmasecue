@@ -101,17 +101,37 @@
 
   <!---------------------- Section - 1 ---------------------->
   <style>
+    :root {
+      --min-height: 600px;
+      --bg-color: #242424;
+      --bg-img: url('images/home-banner.png');
+    }
+
     #section-1 {
-      min-height: 0px;
-      padding-block: 0em;
-      background: #242424;
-      min-height: 600px;
-      position: relative;
-      margin-bottom: 3em;
-      position: relative;
-      background-image: url('images/home-banner.png');
-      background-repeat: no-repeat;
-      background-size: cover;
+      min-height: var(--min-height);
+      background: var(--bg-color);
+      background-image: var(--bg-img);
+    }
+
+    @media(max-width:1100px) {
+      #section-1 {
+        min-height: 500px;
+      }
+    }
+    @media(max-width:768px) {
+      #section-1 {
+        min-height: 400px;
+      }
+    }
+    @media(max-width:650px) {
+      #section-1 {
+        min-height: 300px;
+      }
+    }
+    @media(max-width:500px) {
+      #section-1 {
+        min-height: 200px;
+      }
     }
   </style>
   <section id="section-1" class="overflow-hidden">

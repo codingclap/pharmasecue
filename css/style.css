@@ -4,6 +4,15 @@
 ##########################
 */
 
+#section-1 {
+  min-height: 0px;
+  padding-block: 0em; 
+  position: relative;
+  margin-bottom: 3em;
+  position: relative; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #section-1 video {
   object-fit: cover;
@@ -585,6 +594,7 @@
   #section-13 .brand-container .icons {
     max-width: 120px;
   }
+ 
 }
 
 @media(max-width:1280px) {
@@ -642,6 +652,7 @@
   #section-1 .banner-text .banner-hero_trigger {
     text-align: center;
   }
+  
 }
 
 @media(max-width:768px) {
