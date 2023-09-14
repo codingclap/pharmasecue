@@ -1,0 +1,66 @@
+/* track page */
+.track-features .card {
+    border-top: 3px solid #0082CE !important;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid #F1F1F1;
+    background: #FFF;
+}
+
+.track-features .card .card-text {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.track-features .col-12 {
+    margin-bottom: 2rem;
+}
+
+.key-benefits .card {
+    background-color: transparent;
+    border: 0;
+}
+
+.key-benefits .card img {
+    width: 84px;
+}
+
+.key-benefits .card .card-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.key-benefits .card .card-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.digits {
+    border: 2px solid #FF7D1A;
+    color: #FF7D1A;
+    font-size: 22px;
+    font-weight: 900;
+    height: 60px;
+    width: 60px;
+    padding: 12px 4px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 12px 0;
+    background-color: #fff;
+}
+
+/* track page */
