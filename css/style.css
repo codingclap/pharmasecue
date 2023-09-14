@@ -451,9 +451,9 @@
   position: absolute;
   right: 0;
   z-index: 1;
-  background: #ffffff;
+  background: #ffffff00;
   width: 100%;
-  max-width: 100px;
+  max-width: 180px;
   line-height: 0px;
   margin: 0 auto;
   border-radius: 30px;
