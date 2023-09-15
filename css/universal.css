@@ -92,7 +92,9 @@ body {
 [data-bgcolor="gray"] {
   background-color: #f0f0f0;
 }
-
+[data-bgcolor="lightgray"] {
+  background-color:rgba(0, 130, 207, 0.05);
+}
 [data-bgcolor="dark"] {
   background-color: #2b2a2b;
 }
