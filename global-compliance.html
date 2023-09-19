@@ -244,6 +244,18 @@
       padding: 0.6rem 1rem;
     }
 
+    @media(max-width:576px) {
+      .popup-img {
+        position: initial;
+        top: -70px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 110px;
+        margin: 0 auto;
+      }
+    }
+
     * {
       --bs-modal-width: 1024px !important;
       --bs-border-color: #eee;
@@ -542,7 +554,7 @@
                   <div class="modal-header" style="border:0px;">
                     <div class="modal-title w-100">
                       <img class="popup-img" src="images/saudi-arabia-flag.png" alt="">
-                      <p class="pt-5 m-0" data-color="black" data-heading="18px" data-font-style="popping-regular">Our
+                      <p class="pt-3 pt-sm-5 m-0" data-color="black" data-heading="18px" data-font-style="popping-regular">Our
                         products are fully
                         compliant with the serialization needs of the Brazil ANVISA.</p>
                     </div>
@@ -557,17 +569,21 @@
                             Brazil ANVISA requirements</td>
                         </tr>
                         <tr class="text-start">
-                          <td style="width:40%;" data-color="black" data-para="17px" data-font-style="popping-regular">Deadline</td>
+                          <td style="width:40%;" data-color="black" data-para="17px" data-font-style="popping-regular">
+                            Deadline</td>
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">April 2022</td>
                         </tr>
                         <tr class="text-start">
-                          <td data-color="black" data-para="17px" data-font-style="popping-regular">Secondary Packaging Requirement</td>
-                          <td data-color="black" data-para="17px" data-font-style="popping-regular">2D GS1 barcode encoding GTIN along with a batch number, expiry date serial number and
+                          <td data-color="black" data-para="17px" data-font-style="popping-regular">Secondary Packaging
+                            Requirement</td>
+                          <td data-color="black" data-para="17px" data-font-style="popping-regular">2D GS1 barcode
+                            encoding GTIN along with a batch number, expiry date serial number and
                             ANVISA Reg No.</td>
                         </tr>
                         <tr class="text-start">
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">Reporting</td>
-                          <td data-color="black" data-para="17px" data-font-style="popping-regular">Each member of the drug handling chain shall electronically record and communicate data
+                          <td data-color="black" data-para="17px" data-font-style="popping-regular">Each member of the
+                            drug handling chain shall electronically record and communicate data
                             corresponding to instances of events occurring with the drug under their custody (full Track
                             and Trace system with centralized data)</td>
                         </tr>
@@ -575,7 +591,7 @@
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">Aggregation</td>
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">Yes</td>
                         </tr>
-                        <tr class="text-start" >
+                        <tr class="text-start">
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">OTC Included</td>
                           <td data-color="black" data-para="17px" data-font-style="popping-regular">Yes</td>
                         </tr>
