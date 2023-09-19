@@ -61,6 +61,7 @@ ul.global-data-list {}
 .table {
   border-radius: 0px 0px 0px 10px;
   font-family: popping-regular;
+  vertical-align: middle;
 }
 
 .table td {
@@ -108,7 +109,9 @@ ul.global-data-list {}
     font-family: popping-regular;
     font-size: 15px;
   }
-
+  .table tbody tr {
+   vertical-align: middle;
+  }
   .table>:not(caption)>*>* {
     padding: 0.5rem 0.7rem;
   }
