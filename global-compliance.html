@@ -213,9 +213,42 @@
     #global-data .button-box button:hover {
       background-color: #FF7D1A;
     }
-    *{
-    --bs-modal-width:800px!important;
+
+    .table {
+      border-radius: 0px 0px 0px 10px;
     }
+
+    .modal-title {
+      position: relative;
+    }
+
+    .btn-close {
+      top: 15px;
+      position: absolute;
+      right: 15px;
+      opacity: 1;
+      font-size: 14px;
+    }
+
+    .popup-img {
+      position: absolute;
+      top: -80px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      max-width: 120px;
+      margin: 0 auto;
+    }
+
+    .table>:not(caption)>*>* {
+      padding: 0.6rem 1rem;
+    }
+
+    * {
+      --bs-modal-width: 950px !important;
+      --bs-border-color: #eee;
+    }
+
     /* custom button */
   </style>
   <section id="global-data" class="overflow-hidden py-4 py-md-5" data-bgcolor="white">
@@ -505,31 +538,44 @@
             <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel"
               aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <div class="modal-content" style="border:0px;border-top-left-radius: 0px;border-top-right-radius: 0px;">
+                  <div class="modal-header" style="border:0px;">
+                    <div class="modal-title w-100">
+                      <img class="popup-img" src="images/saudi-arabia-flag.png" alt="">
+                      <p class="pt-5 m-0" data-color="black" data-heading="18px" data-font-style="popping-regular">Our
+                        products are fully
+                        compliant with the serialization needs of the Brazil ANVISA.</p>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body pt-0">
                     <table class="table table-bordered">
                       <tbody>
-                        <tr>
-                          <td>Deadline</td>
+                        <tr data-bgcolor="blue"
+                          style="border-top: 1px solid #0c82cc;border-left: 1px solid #0c82cc;border-right: 1px solid #0c82cc;border-bottom:2px solid #0c82cc;">
+                          <td colspan="2" data-color="white" data-heading="20px" data-font-style="popping-regular">
+                            Brazil ANVISA requirements</td>
+                        </tr>
+                        <tr class="text-start" data-color="black" data-para="17px" data-font-style="popping-regular">
+                          <td style="width:40%;">Deadline</td>
                           <td>April 2022</td>
                         </tr>
-                        <tr>
+                        <tr class="text-start" data-color="black" data-para="17px" data-font-style="popping-regular">
                           <td>Secondary Packaging Requirement</td>
-                          <td>2D GS1 barcode encoding GTIN along with a batch number, expiry date serial number and ANVISA Reg No.</td>
+                          <td>2D GS1 barcode encoding GTIN along with a batch number, expiry date serial number and
+                            ANVISA Reg No.</td>
                         </tr>
-                        <tr>
+                        <tr class="text-start" data-color="black" data-para="17px" data-font-style="popping-regular">
                           <td>Reporting</td>
-                          <td>Each member of the drug handling chain shall electronically record and communicate data corresponding to instances of events occurring with the drug under their custody (full Track and Trace system with centralized data)</td>
+                          <td>Each member of the drug handling chain shall electronically record and communicate data
+                            corresponding to instances of events occurring with the drug under their custody (full Track
+                            and Trace system with centralized data)</td>
                         </tr>
-                        <tr>
+                        <tr class="text-start" data-color="black" data-para="17px" data-font-style="popping-regular">
                           <td>Aggregation</td>
                           <td>Yes</td>
                         </tr>
-                        <tr>
+                        <tr class="text-start" data-color="black" data-para="17px" data-font-style="popping-regular">
                           <td>OTC Included</td>
                           <td>Yes</td>
                         </tr>
