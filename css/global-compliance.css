@@ -109,7 +109,12 @@
       font-size: 16px;
     }
   }
-
+  @media(max-width:350px) {  
+    .table td {
+      font-family: popping-regular;
+      font-size: 15px;
+    }
+  }
   * {
     --bs-modal-width: 1024px !important;
     --bs-border-color: #eee;
