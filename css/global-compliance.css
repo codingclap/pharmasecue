@@ -1,86 +1,101 @@
 .global-data-box {
-    min-height: 450px;
-    border-radius: 0px 0px 10px 10px;
-    border: 2px solid #F1F1F1;
-    background: #FFF;
+  min-height: 450px;
+  border-radius: 0px 0px 10px 10px;
+  border: 2px solid #F1F1F1;
+  background: #FFF;
 
-  }
+}
 
-  .global-data-box>img {
-    position: relative;
-    top: -70px;
-    width: 130px;
+.global-data-box>img {
+  position: relative;
+  top: -70px;
+  width: 130px;
 
-  }
+}
 
-  .global-data-box h5 {
-    margin-top: -20px;
-  }
+.global-data-box h5 {
+  margin-top: -20px;
+}
 
-  ul.global-data-list {}
+ul.global-data-list {}
 
-  .global-data-list li {
-    color: #000;
-    font-family: popping-regular;
-  }
+.global-data-list li {
+  color: #000;
+  font-family: popping-regular;
+}
 
-  /* custom button */
-  .global-data-box {
-    position: relative;
-    border-radius: 0px 0px 10px 10px !important;
-    border: 2px solid #F1F1F1;
-    background: #FFF;
-    padding-top: 2rem;
-  }
+/* custom button */
+.global-data-box {
+  position: relative;
+  border-radius: 0px 0px 10px 10px !important;
+  border: 2px solid #F1F1F1;
+  background: #FFF;
+  padding-top: 2rem;
+}
 
-  #global-data .button-box {
-    position: absolute;
-    bottom: -1px;
-    width: 101%;
-    left: -1.5px;
-  }
+#global-data .button-box {
+  position: absolute;
+  bottom: -1px;
+  width: 101%;
+  left: -1.5px;
+}
 
-  #global-data .button-box button {
-    border-radius: 0px 0px 10px 10px;
-    background: #FF7D1A;
-    border: none;
-    padding: 17px 0;
-    width: 100%;
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16.37px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
+#global-data .button-box button {
+  border-radius: 0px 0px 10px 10px;
+  background: #FF7D1A;
+  border: none;
+  padding: 17px 0;
+  width: 100%;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16.37px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
-  #global-data .button-box button:hover {
-    background-color: #FF7D1A;
-  }
+#global-data .button-box button:hover {
+  background-color: #FF7D1A;
+}
 
-  .table {
-    border-radius: 0px 0px 0px 10px;
-    font-family: popping-regular;
-  }
+.table {
+  border-radius: 0px 0px 0px 10px;
+  font-family: popping-regular;
+}
 
-  .table td {
-    font-size: 17px;
-  }
+.table td {
+  font-size: 17px;
+}
 
-  .modal-title {
-    position: relative;
-  }
+.modal-title {
+  position: relative;
+}
 
-  .btn-close {
-    top: 15px;
-    position: absolute;
-    right: 15px;
-    opacity: 1;
-    font-size: 14px;
-  }
+.btn-close {
+  top: 15px;
+  position: absolute;
+  right: 15px;
+  opacity: 1;
+  font-size: 14px;
+}
 
+.popup-img {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 110px;
+  margin: 0 auto;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.6rem 1rem;
+}
+
+@media(max-width:576px) {
   .popup-img {
-    position: absolute;
+    position: initial;
     top: -70px;
     left: 0;
     right: 0;
@@ -89,35 +104,26 @@
     margin: 0 auto;
   }
 
+  .table td {
+    font-family: popping-regular;
+    font-size: 15px;
+  }
+
   .table>:not(caption)>*>* {
-    padding: 0.6rem 1rem;
+    padding: 0.5rem 0.7rem;
   }
+}
 
-  @media(max-width:576px) {
-    .popup-img {
-      position: initial;
-      top: -70px;
-      left: 0;
-      right: 0;
-      width: 100%;
-      max-width: 110px;
-      margin: 0 auto;
-    }
+@media(max-width:350px) {
+  .table td {
+    font-family: popping-regular;
+    font-size: 14px;
+  }
+}
 
-    .table td {
-      font-family: popping-regular;
-      font-size: 15px;
-    }
-  }
-  @media(max-width:350px) {  
-    .table td {
-      font-family: popping-regular;
-      font-size: 14px;
-    }
-  }
-  * {
-    --bs-modal-width: 1024px !important;
-    --bs-border-color: #eee;
-  }
+* {
+  --bs-modal-width: 1024px !important;
+  --bs-border-color: #eee;
+}
 
-  /* custom button */
+/* custom button */
