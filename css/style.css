@@ -481,7 +481,19 @@
 ##########################
 */
 
-
+.digits {
+  border: 2px solid #FF7D1A;
+  color: #FF7D1A;
+  font-size: 22px;
+  font-weight: 900;
+  height: 60px;
+  width: 60px;
+  padding: 12px 4px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px 0;
+  background-color: #fff;
+}
 
 /*
 ##########################

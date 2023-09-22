@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmasecure Product Authentication page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/splide.css">
+    <script src="js/splide.js"></script>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!---------------------- Navbar ---------------------->
+
+    <header id="page-header" class="page-header">
+
+        <!------header navbar ------>
+        <div id="headermenu" style="position:sticky;">
+            <div class="container-fluid">
+
+                <div class="headermenu-inner">
+                    <div class="headermenu-logo">
+                        <img src="images/pharma-secure.png" alt="">
+
+                    </div>
+                    <a href="javascript:void(0)" class="menu-toggle" data-hamberger="closed">
+                        <span class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+
+                    <div class="headermenu-main">
+                        <ul class="headermenu-firstmenu">
+                            <li id="menu-item-111" data-dropdown="dropdown1" data-menu="menu1"
+                                class="primary-menu arrow">
+                                <a href="javascript:void(0)" class="primary-links arrow">Solutions</a>
+                                <ul class="submenu-items submenu-container">
+                                    <li class="secondary-menu" id="subdrop"><a href="#"
+                                            class="sub-arrow arrow">Serialization</a>
+                                        <ul class="nested-submenu">
+                                            <li class="secondary-menu"><a href="#" class="sub-link">Global
+                                                    Compliance</a></li>
+                                            <li class="secondary-menu"><a href="#" class="sub-link">Software</a></li>
+                                            <li class="secondary-menu"><a href="#" class="sub-link">Hardware</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="secondary-menu"><a href="#">Track and Trace</a> </li>
+                                    <li class="secondary-menu"><a href="#">Product Authentication</a></li>
+                                    <li class="secondary-menu"><a href="#">Loyalty</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-112" data-dropdown="dropdown2" data-menu="menu2" class="primary-menu">
+                                <a href="javascript:void(0)" id="menu2" class="primary-links">Industries</a>
+                            </li>
+                            <li id="menu-item-113" class="primary-menu arrow">
+                                <a href="javascript:void(0)" class="primary-links arrow">News and Updates</a>
+                                <ul class="submenu-items submenu-container">
+                                    <li class="secondary-menu"><a href="#">White Paper</a></li>
+                                    <li class="secondary-menu"><a href="#">Blog</a> </li>
+                                </ul>
+
+                            </li>
+
+                            <li id="menu-item-114" class="primary-menu"><a href="javascript:void(0)" id="menu2"
+                                    class="primary-links">About
+                                    Us</a>
+
+                            </li>
+
+                            <li id="menu-item-114" class="primary-menu">
+                                <div class="mobilemenubar-button">
+                                    <a href="https://www.webfx.com/free-quote/" class="get_proposal_btn">Contact Us</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="headermenubar-button">
+                        <a href="https://www.webfx.com/free-quote/" class="get_proposal_btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------header navbar ------>
+
+    </header>
+    <!---------------------- Navbar ---------------------->
+
+
+
+
+    <!---------------------- Section - 1 ---------------------->
+    <style>
+        #section-1 {
+            min-height: 0px;
+            padding-block: 0em;
+            background: #242424;
+            min-height: 380px;
+            position: relative;
+            margin-bottom: 0em;
+            position: relative;
+            background-image: url('images/banner-authentication.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #van-animation {
+            width: 100%;
+            position: relative;
+        }
+
+        #van-animation .image-with-bg {
+            position: relative;
+        }
+
+        #van-animation .van-img {
+            position: absolute;
+            bottom: 10%;
+            left: 25%;
+            width: 10%;
+            animation-name: move-forward;
+            animation-duration: 7s;
+            animation-delay: 0.8s;
+            /* Animation will be repeated twice */
+            animation-iteration-count: initial;
+            animation-fill-mode: forwards;
+        }
+
+
+        @keyframes move-forward {
+            100% {
+                left: 80%
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            70% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <section id="section-1" class="overflow-hidden">
+        <div class="phar-overlay"></div>
+        <div class="phar-content text-center">
+            <h1 data-heading="4em" data-color="white" data-font-style="popping-semibold" line-height="1.3em">
+                Product Authentication </h1>
+
+        </div>
+        </div>
+    </section>
+    <!---------------------- Section - 1 ---------------------->
+    <!------------------Section-2--------------------------->
+    <section id="section-2" class="overflow-hidden ">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12 pt-5">
+                        <h3 class="text-center" data-color="blue" data-heading="3.5em"
+                            data-font-style="popping-semibold">Empower consumers and protect your brand with
+                            tech-enabled verification
+                        </h3>
+                        <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black" data-para="20px"
+                            line-height="1.6em">The global trade in counterfeit medicines is on the rise (from
+                            approximately US$75
+                            billion in 2010 to US$200 billion in 2015). Alarmingly, this profit is more than that of
+                            drug trafficking.
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!------------------Section-2-------------->
+
+
+    <!---------------- section-3-------------------------->
+
+
+    <style>
+        .global-data-box {
+            min-height: 510px;
+            border-radius: 0px 0px 10px 10px;
+            border: 2px solid #F1F1F1;
+            background: #FFF;
+
+        }
+
+        .global-data-box>img {
+            position: relative;
+            top: -70px;
+            width: 130px;
+
+        }
+
+        .global-data-box h5 {
+            margin-top: -20px;
+        }
+
+        ul.global-data-list {}
+
+        .global-data-list li {
+            color: #000;
+            font-family: popping-regular;
+        }
+    </style>
+    <section id="global-data" class="overflow-hidden  product-auth">
+        <div class="container-fluid py-4">
+            <div class="container">
+
+
+
+
+                <div class="row text-center pt-2 pt-xl-5 justify-content-between">
+                    <div class="col-12 col-lg-5 col-xl-5 pt-5 py-5 ">
+                        <div class="global-data-box py-3  py-md-3 h-100" data-color="dark-blue" data-bgcolor="white">
+                            <img src="images/icon-product1.png" alt="">
+
+
+                            <h1 data-heading="30px" data-font-style="popping-semibold" data-color="blue"
+                                line-height="1.5em">$75 Billlion</h1>
+
+                            <p class="my-3 my-md-4 px-0 px-md-5" data-font-style="popping-regular" data-color="black"
+                                data-para="18px" line-height="1.8em">Global profit from counterfeit medicine sestimated
+                                in US – 2010
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-2 pt-5 py-5 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-play fs-1" style="color:  #F97F15;"></i>
+                    </div>
+
+                    <div class="col-12 col-lg-5 col-xl-5 pt-5 py-5 ">
+                        <div class="global-data-box py-3  py-md-3 h-100" data-color="dark-blue"
+                            style="  background-color:#006BAD;">
+                            <img src="images/icon-product2.png" alt="">
+                            <h1 data-heading="30px" data-font-style="popping-semibold" data-color="white"
+                                line-height="1.5em">$200 Billlion</h1>
+                            <p class="my-3 my-md-4 px-0 px-md-5" data-font-style="popping-regular" data-color="white"
+                                data-para="18px" line-height="1.8em">Global profIt from counterfeit medicinesestimated
+                                in US – 2015
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------section-3----------------------->
+
+
+
+    <!---------------- section-4------------------------->
+    <section id="section-2" class="overflow-hidden ">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12 ">
+                        <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black" data-para="20px"
+                            line-height="1.6em">Apart from being a risk to consumer health, counterfeiting is a serious
+                            financial threat. It can damage brand
+                            reputation and product sales in a big way. While not limited to pharmaceuticals,
+                            it is rampant in this industry.</p>
+                        <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black" data-para="20px"
+                            line-height="1.6em">Our Product Authentication solution helps you detect and prevent
+                            counterfeiting of your products. It also incentivises code
+                            verification by consumers and enables access to health information for patients. Our Product
+                            Authentication solution helps you detect
+                            and prevent counterfeiting of your products. It also incentivises code verification by
+                            consumers and enables access to health information for patients.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--------------------section-4----------------------->
+
+
+
+
+    <!------section-5------>
+     
+    <section class="track-features  pb-5">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12 ">
+                        <h3 class="text-center" data-color="blue" data-heading="3.5em"
+                            data-font-style="popping-semibold">How it works
+                        </h3>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex align-items-center flex-column px-5">
+                        <div class="digits">
+                            1
+                        </div>
+                        <div class="card h-100 ">
+                            <img src="./images/generate_code.png" class="card-img-top" alt="...">
+                            <div class="card-body  px-5 text-center">
+                                <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black"
+                                    data-para="20px" line-height="1.6em">Unique and random alphanumeric codes are
+                                    generated on a secure server
+                                    and sent to the manufacturing facility via an encrypted file-transfer process.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-center flex-column px-5">
+                        <div class="digits">
+                            2
+                        </div>
+                        <div class="card h-100">
+                            <img src="./images/track_two.png" class="card-img-top" alt="...">
+                            <div class="card-body  px-5 text-center">
+                                <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black"
+                                    data-para="20px" line-height="1.6em">The coded files are decrypted at the
+                                    manufacturing line, and printing
+                                    is done directly on the product packaging using variable data printing.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-center flex-column px-5">
+                        <div class="digits">
+                            3
+                        </div>
+                        <div class="card h-100">
+                            <img src="./images/product3.png" class="card-img-top" alt="...">
+                            <div class="card-body  px-5 text-center">
+                                <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black"
+                                    data-para="20px" line-height="1.6em">The codes applied to the packs are activated by
+                                    an authorized person,
+                                    such as a quality assurance specialist, before shipping from the plant.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-center flex-column px-5">
+                        <div class="digits">
+                            4
+                        </div>
+                        <div class="card h-100">
+                            <img src="./images/product4.png" class="card-img-top" alt="...">
+                            <div class="card-body  px-5 text-center">
+                                <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="black"
+                                    data-para="20px" line-height="1.6em">The consumer can verify the product by WhatsApp
+                                    or text message using the unique code printed on the medicine.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------Section-5--------------------------------->
+
+
+    <section id="section-4" class="overflow-hidden pb-5 pt-4 pt-md-5 key-benefits" data-bgcolor="blue">
+        <div class="container-fluid">
+            <div class="container">
+
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <h3 class="text-center" data-color="white" data-heading="3.5em"
+                            data-font-style="popping-semibold">Key Benefits</h3>
+
+                    </div>
+
+                </div>
+                <div class="row text-center  certifications">
+                    <div class="col-lg-4 col-12 mTop px-5">
+                        <div>
+                            <figure>
+                                <img src="./images/product-key1.png" class="img-fluid" alt="">
+                            </figure>
+                            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-color="white"
+                                data-font-style="popping-semibold" line-height="1.5em"
+                                style="text-align:center!important;">Get full data on <br>counterfeit activity</h5>
+                            <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="white"
+                                data-para="20px" line-height="1.6em">
+                                Our authentication system detects the locations of likely counterfeit sellers, provides
+                                you with their geo-coordinates and buyer phone numbers. Use this to confiscate
+                                counterfeited products and take legal action.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mTop px-5">
+                        <div>
+                            <figure>
+                                <img src="./images/shield 2 (Traced).png" class="img-fluid" alt="">
+                            </figure>
+                            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-color="white"
+                                data-font-style="popping-semibold" line-height="1.5em"
+                                style="text-align:center!important;">Protect against<br>brand damage</h5>
+                            <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="white"
+                                data-para="20px" line-height="1.6em">
+                                Establish yourself as a responsible manufacturer and avoid the negative reviews and
+                                press that imitation goods generate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mTop  px-5">
+                        <div>
+                            <figure>
+                                <img src="./images/product-key2.png" class="img-fluid" alt="">
+                            </figure>
+                            <h5 class="pt-2 text-center text-lg-start" data-heading="25px" data-color="white"
+                                data-font-style="popping-semibold" line-height="1.5em"
+                                style="text-align:center!important;">Prevent economic <br>losses</h5>
+                            <p class="my-2 my-md-4" data-font-style="popping-regular" data-color="white"
+                                data-para="20px" line-height="1.6em">
+                                Save potential costs on replacement and damage control. Fake products badly dent your
+                                bottom line by eating into your sales.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+    <!----------------------Section-4--------------------------------->
+
+
+    <!----------------------  Footer Section --------------------->
+    <section id="footer" class="overflow-hidden pt-5 pt-md-5 pb-4 pb-md-5" data-bgcolor="footer">
+        <div class="container">
+            <div class="row text-center pt-5 pb-5 pb-md-5 mt-0 gap-4">
+                <div class="col-12 col-md-12 col-lg-4  text-center text-lg-start">
+                    <img src="./images/pharma-secure.png" alt="visualbest-logo" class="footer-img1">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="pt-4 pt-md-4 mb-1 pe-0 pe-md-0 pe-xl-5" data-font-style="popping-regular"
+                                data-para="15px" data-color="light" line-height="1.6em">PharmaSecure is a global
+                                track-and-trace, product
+                                authentication and consumer engagement
+                                company that has helped protect over 5 billion
+                                packages through its technology-enabled solutions.
+                                Our proven serialization capabilities have enabled
+                                large pharmaceutical companies to meet different
+                                traceability requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-2 col-xl-2 pt-4 pt-lg-0">
+                    <ul class="footer-menu ps-0 ps-md-0 text-center text-lg-start">
+                        <li>
+                            <h5 class="mb-2" data-font-style="popping-semibold">Solutions</h5>
+                        </li>
+                        <li><a href="">Serialization</a></li>
+                        <li><a href="">Track and Trace</a></li>
+                        <li><a href="">Product Authentication</a></li>
+                        <li><a href="">Loyalty</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 col-xl-2 pt-4 pt-lg-0">
+                    <ul class="footer-menu ps-0 ps-md-0 text-center text-lg-start">
+                        <li>
+                            <h5 class="mb-2" data-font-style="popping-semibold">Quick Links</h5>
+                        </li>
+                        <li><a href="">Global Compliance</a></li>
+                        <li><a href="">Software</a></li>
+                        <li><a href="">Hardware</a></li>
+                        <li><a href="">White Papers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-2 col-xl-3 pt-4 pt-lg-0">
+                    <ul class="footer-menu ps-0 ps-md-0 text-center text-lg-start">
+                        <li>
+                            <h5 class="mb-2" data-font-style="popping-semibold">Industries</h5>
+                        </li>
+                        <li><a href="">Food and Beverages</a></li>
+                        <li><a href="">Beauty and Personal Care</a></li>
+                        <li><a href="">Agri-based Products</a></li>
+                        <li><a href="">Automobile Components</a></li>
+                        <li><a href="">Industrial Goods</a></li>
+                    </ul>
+                    <ul class="footer-menu pt-4 ps-md-0 text-center text-lg-start">
+                        <li>
+                            <h5 class="mb-2" data-font-style="popping-semibold">Social Links</h5>
+                        </li>
+                        <li>
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/PharmaSecure" target="_blank"><img
+                                        src="images/facebook.png" class="" alt="facebook" width="35px"></a>
+                                <a href="https://in.linkedin.com/company/pharmasecure" target="_blank"><img
+                                        src="images/linkedin.png" class="ms-2" alt="linkedin" width="35px"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-12 col-md-10 col-lg-10 col-xl-8">
+                    <ul class="footer-menu-bottom pt-4 ps-0 ps-md-0 text-center text-lg-start">
+                        <li>
+                            <h5 class="mb-2" data-font-style="popping-semibold">Memberships & Certifications
+                            </h5>
+                        </li>
+                        <li>
+                            <div class="certifications">
+                                <img src="images/business-call-to-action.png" class="ms-2 ms-md-0" alt="facebook">
+                                <img src="images/gs-1.png" class="ms-2 ms-md-0" alt="linkedin">
+                                <img src="images/aipia.png" class="ms-2 ms-md-0" alt="linkedin">
+                                <img src="images/aspa.png" class="ms-2 ms-md-0" alt="linkedin">
+                                <img src="images/iso.png" class="ms-2 ms-md-0" alt="linkedin">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- Footer Closed ---------------------->
+
+
+
+    <!------- Number with bullet Slider ------>
+
+
+    <!---- section 8 Slider---->
+
+    <script>
+        var splide = new Splide('.home-testimonial', {
+            type: 'loop',
+            loop: true,
+            autoplay: true,
+            rewind: false,
+            interval: 4000,
+            height: 'auto',
+            perPage: 1,
+            gap: '0rem',
+            pagination: true,
+            arrows: true,
+            breakpoints: {
+                480: {
+                    perPage: 1,
+                    arrows: false,
+                    loop: true,
+                },
+            },
+        });
+        splide.mount();
+    </script>
+
+    <script>
+        var splides = new Splide('.home-testimonial2', {
+            type: 'loop',
+            loop: true,
+            autoplay: true,
+            rewind: false,
+            interval: 4000,
+            height: 'auto',
+            perPage: 1,
+            gap: '0rem',
+            pagination: true,
+            arrows: true,
+            breakpoints: {
+                480: {
+                    perPage: 1,
+                    arrows: false,
+                    loop: true,
+                },
+            },
+        });
+        splides.mount();
+    </script>
+    <!---- section 8 Slider ---->
+
+
+
+
+    <script src="js/navbar.js"></script>
+
+
+</body>
+
+</html>
